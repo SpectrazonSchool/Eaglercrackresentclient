@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "eaglerclient.html",
+      "src": "Eaglerclient.html",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "eaglerclient.html"
+      "dest": "Eaglerclient.html"
     }
   ]
 }
